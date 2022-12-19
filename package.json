@@ -1,7 +1,7 @@
 {
   "name": "@org1/react-app",
   "scripts": {
-    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack serve ",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && webpack serve ",
     "start:standalone": "webpack serve --env standalone",
     "build": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
